@@ -1,0 +1,15 @@
+.knapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-evenly h1 {
+    margin-left: 32px;
+}
