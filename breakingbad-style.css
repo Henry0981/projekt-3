@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 70px;
+      
+}
+
+h1 
+
+{
+  color: white;
+}
+
+.knapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+.flex-evenly a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.flex-evenly a:hover
+{
+    color:red;
+}
+
+
+.flex-evenly h1 {
+    margin-left: 32px;
+
+}
+
+.animeQuiz {
+    margin-left: 60vh;
+}
+
+.mangaQuiz {
+    margin-left: 10vh;
+
+}
+
+.merch {
+    margin-left: 10vh;
+}
+
+.guides {
+    margin-left: 10vh;
+}
+
+.contact {
+    margin-left: 10vh;
+}
+
+.question1 
+ {
+ text-align: center;
+ margin-top: 40px;
+
+ }
+
+ .questionimg
+ {
+    transition: transform .7s ease-in-out;
+ }
+
+ .questionimg:hover
+ {
+    
+    transform: rotate(360deg);
+ }
+
+ .questiontextbox 
+ 
+ {
+   display: grid;
+   grid-template-columns: 20px 100px 20px 100px;
+   grid-template-rows: 1fr 1fr;
+   place-content: center;
+   margin-top: 20px;
+
+ }
+ .questiontextbox p 
+ {
+    margin-top: 10px;
+    outline: black solid 1px;
+
+ }
+ .questiontextbox input
+ {
+    margin-top: 10px;
+    
+ }
+
+

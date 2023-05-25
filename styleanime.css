@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 70px;
+      
+}
+
+h1 
+
+{
+  color: white;
+}
+
+.knapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+.flex-evenly a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.flex-evenly a:hover
+{
+    color:red;
+}
+
+
+.flex-evenly h1 {
+    margin-left: 32px;
+
+}
+
+.animeQuiz {
+
+    margin-left: 60vh;
+}
+
+.mangaQuiz {
+    margin-left: 10vh;
+
+}
+
+.merch {
+    margin-left: 10vh;
+}
+
+.guides {
+    margin-left: 10vh;
+}
+
+.contact {
+    margin-left: 10vh;
+}
+
+
+.category 
+{ 
+    outline: black solid 2px;
+
+
+}
